@@ -1,0 +1,16 @@
+import org.myRest.Country
+
+model {
+	Iterable<Country> countryList
+	String  status
+	String  description
+	String  version
+}
+
+json {
+    status status
+    description description
+    version version
+    data ((version == 'v1')?tmpl.'country_v1.0'(countryList ?: []):tmpl.'country_v2.0'(countryList ?: []))
+}
+

@@ -1,0 +1,14 @@
+import org.myRest.Country
+
+model {
+	String  status
+	String  description
+	String  version
+}
+
+json {
+    status status
+    description description
+    version version
+}
+

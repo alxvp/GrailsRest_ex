@@ -1,0 +1,11 @@
+import org.myRest.Country
+
+model {
+	Country country
+}
+
+json {
+    id country.id
+    code country.code
+    name country.name
+}
