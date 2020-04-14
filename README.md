@@ -1,10 +1,10 @@
-**Платформа**
+**Платформа**. 
 | Grails Version: 3.3.5  
 | Groovy Version: 2.4.15  
 | JVM Version: 1.8.0_222  
 
 **Запуск**
-
+Из папки приложения myRest и dbWork
 grails run-app  
 
 **Отображение информации**
